@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Travel</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1756472811201"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1756472811201">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" class="header">
+				<div class="header__container">
+					<div class="header__logo">
+						<p>Travel</p>
+						<img class="header__image-logo" src="./assets/img/arrow-logo.svg" alt="Image">
+					</div>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="" class="menu__link">Home</a>
+								</li>
+								<li class="menu__item">
+									<a href="" class="menu__link">About</a>
+								</li>
+								<li class="menu__item">
+									<div data-fls-spollers="320,min" class="spollers">
+										<details class="spollers__item">
+											<summary data-fls-spollers-close="" class="spollers__title">Services</summary>
+											<div class="spollers__body">
+												<div class="spollers__arrow"></div>
+												<div class="spollers__content">
+													<a href="#" class="spollers__link">Honeymoon Packages</a>
+													<a href="#" class="spollers__link">Tour Packages</a>
+													<a href="#" class="spollers__link">Musical Events</a>
+													<a href="#" class="spollers__link">Build Package</a>
+												</div>
+											</div>
+										</details>
+									</div>
+								</li>
+								<li class="menu__item">
+									<a href="" class="menu__link">Upcomming Packages</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__action">
+						<button class="button" data-fls-button="">
+							<a href="#" class="button__link">Get in Touch</a>
+						</button>
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<nav class="menu__body">
+				<ul class="menu__list">
+					<li class="menu__item">
+						<a href="" class="menu__link">Home</a>
+					</li>
+					<li class="menu__item">
+						<a href="" class="menu__link">About</a>
+					</li>
+					<li class="menu__item">
+						<div data-fls-spollers="320,min" class="spollers">
+							<details class="spollers__item">
+								<summary class="spollers__title">Services</summary>
+								<div class="spollers__body">
+									<div class="spollers__arrow"></div>
+									<div class="spollers__content">
+										<a href="#" class="spollers__link">Honeymoon Packages</a>
+										<a href="#" class="spollers__link">Tour Packages</a>
+										<a href="#" class="spollers__link">Musical Events</a>
+										<a href="#" class="spollers__link">Build Package</a>
+									</div>
+								</div>
+							</details>
+						</div>
+					</li>
+					<li class="menu__item">
+						<a href="" class="menu__link">Upcomming Packages</a>
+					</li>
+				</ul>
+			</nav>
+			<main class="page page--home">
+				<section class="page__hero hero">
+					<div data-fls-slider="" class="hero__slider swiper">
+						<!-- Частина слайдера, що рухається -->
+						<div data-swiper-autoplay="4000" class="hero__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="hero__slide swiper-slide">
+								<picture>
+									<source media="(max-width: 600px)" srcset="./assets/img/hero01-600.webp" type="image/webp">
+									<source media="(max-width: 1200px)" srcset="./assets/img/hero01-1200.webp" type="image/webp">
+									<img alt="Image" src="./assets/img/hero01.webp">
+								</picture>
+							</div>
+							<div class="hero__slide swiper-slide">
+								<picture>
+									<source media="(max-width: 600px)" srcset="./assets/img/hero02-600.webp" type="image/webp">
+									<source media="(max-width: 1200px)" srcset="./assets/img/hero02-1200.webp" type="image/webp">
+									<img alt="Image" src="./assets/img/hero02.webp">
+								</picture>
+							</div>
+							<div class="hero__slide swiper-slide">
+								<picture>
+									<source media="(max-width: 600px)" srcset="./assets/img/hero03-600.webp" type="image/webp">
+									<source media="(max-width: 1200px)" srcset="./assets/img/hero03-1200.webp" type="image/webp">
+									<img alt="Image" src="./assets/img/hero03.webp">
+								</picture>
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+					<div class="hero__content content-container">
+						<img class="hero__title-line" src="./assets/img/title-line.svg" alt="Image">
+						<h2 class="hero__title">
+							No matter where
+							<br>
+							you're going to, we'll
+							<br>
+							take you there
+						</h2>
+						<div class="hero__form travel-form">
+							<form>
+								<div class="form-group">
+									<input type="text" placeholder="Where to?">
+								</div>
+								<div class="divider"></div>
+								<div class="form-group">
+									<select title="Travel Type">
+										<option value="" disabled selected hidden>Travel Type</option>
+										<option>Adventure</option>
+										<option>Relax</option>
+										<option>Culture</option>
+									</select>
+								</div>
+								<div class="divider"></div>
+								<div class="form-group">
+									<select title="Duration">
+										<option value="" disabled selected hidden>Duration</option>
+										<option>1-3 days</option>
+										<option>1 week</option>
+										<option>2+ weeks</option>
+									</select>
+								</div>
+								<button class="button button-long" data-fls-button="">
+									<a href="#" class="button__link">Submit</a>
+								</button>
+							</form>
+						</div>
+						<div class="hero__avatar-container">
+							<picture>
+								<img alt="Image" class="hero__avatar" src="./assets/img/avatar01.webp">
+							</picture>
+							<picture>
+								<img alt="Image" class="hero__avatar" src="./assets/img/avatar02.webp">
+							</picture>
+							<picture>
+								<img alt="Image" class="hero__avatar" src="./assets/img/avatar03.webp">
+							</picture>
+							<picture>
+								<img alt="Image" class="hero__avatar" src="./assets/img/avatar04.webp">
+							</picture>
+							<picture>
+								<img alt="Image" class="hero__avatar" src="./assets/img/avatar05.webp">
+							</picture>
+							<div class="hero__avatar avatar--add">+</div>
+							<div class="hero__avatar-text">
+								<p>2,500 people booked Tommorowland Event in last 24 hours</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="hero__company company">
+					<div class="company__items">
+						<img src="./assets/img/company01.svg" alt="Image" class="company__item">
+						<img src="./assets/img/company02.svg" alt="Image" class="company__item">
+						<img src="./assets/img/company03.svg" alt="Image" class="company__item --no-display-mobile">
+						<img src="./assets/img/company04.svg" alt="Image" class="company__item --no-display">
+						<img src="./assets/img/company05.svg" alt="Image" class="company__item --no-display">
+					</div>
+				</div>
+				<section class="page__category category">
+					<div class="category__container">
+						<h3 class="category__subtitle subtitle">CATEGORY</h3>
+						<h2 class="category__title title">We Offer Best Services</h2>
+						<div class="category__items">
+							<div class="category__item-container">
+								<a href="#" class="category__item">
+									<div class="category__image-container">
+										<img src="./assets/img/category01.svg" alt="Image" class="category__item-img">
+										<img src="./assets/img/category-blok-right02.svg" alt="Image" class="category__img-block">
+									</div>
+									<h4 class="category__item-title">Guided Tours</h4>
+									<p class="category__item-text">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
+								</a>
+								<div class="category__item-action-block"></div>
+							</div>
+							<div class="category__item-container">
+								<a href="#" class="category__item">
+									<div class="category__image-container">
+										<img src="./assets/img/category02.svg" alt="Image" class="category__item-img">
+										<img src="./assets/img/category-block-left.svg" alt="Image" class="category__img-block --midlle">
+									</div>
+									<h4 class="category__item-title">Best Flights Options</h4>
+									<p class="category__item-text">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
+								</a>
+								<div class="category__item-action-block"></div>
+							</div>
+							<div class="category__item-container">
+								<a href="#" class="category__item">
+									<div class="category__image-container">
+										<img src="./assets/img/category03.svg" alt="Image" class="category__item-img">
+										<img src="./assets/img/category-block-left.svg" alt="Image" class="category__img-block">
+									</div>
+									<h4 class="category__item-title">Religious Tours</h4>
+									<p class="category__item-text">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
+								</a>
+								<div class="category__item-action-block"></div>
+							</div>
+							<div class="category__item-container">
+								<a href="#" class="category__item">
+									<div class="category__image-container">
+										<img src="./assets/img/category04.svg" alt="Image" class="category__item-img">
+										<img src="./assets/img/category-block-left.svg" alt="Image" class="category__img-block">
+									</div>
+									<h4 class="category__item-title">Medical insurance</h4>
+									<p class="category__item-text">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
+								</a>
+								<div class="category__item-action-block"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__moon moon">
+					<div class="moon__container">
+						<div class="moon__image-container">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/moon-600.webp" type="image/webp">
+								<img alt="Image" class="moon__image" src="./assets/img/moon.webp">
+							</picture>
+							<img src="./assets/img/moon-effect.svg" alt="Image" class="moon__image-effect">
+						</div>
+						<div class="moon__info">
+							<h3 class="moon__subtitle subtitle">Honeymoon Specials</h3>
+							<h2 class="moon__title title">
+								Our Romantic Tropical
+								<br>
+								Destinations
+							</h2>
+							<div class="moon__text">
+								<p>
+									Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos. Non
+            quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus illum aut
+            optio quibusdam!
+								</p>
+							</div>
+							<button class="button button-type-text" data-fls-button="">
+								<a href="#" class="button__link link-type-text">View Packages</a>
+							</button>
+						</div>
+					</div>
+				</section>
+				<section class="page__booking booking">
+					<div class="booking__container">
+						<div class="booking__info">
+							<h3 class="booking__subtitle subtitle">Fast & Easy</h3>
+							<h2 class="booking__title title">
+								Get Your Favourite
+								<br>
+								Resort Bookings
+							</h2>
+							<div class="booking__info-items">
+								<a href="#" class="booking__info-item item-info">
+									<img src="./assets/img/booking-icon01.svg" alt="Image" class="item-info__icon">
+									<div class="item-info__block">
+										<h4 class="item-info__title">Choose Destination</h4>
+										<p class="item-info__text">
+											Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Urna, tortor tempus.
+										</p>
+									</div>
+								</a>
+								<a href="#" class="booking__info-item item-info">
+									<img src="./assets/img/booking-icon02.svg" alt="Image" class="item-info__icon">
+									<div class="item-info__block">
+										<h4 class="item-info__title">Check Availability</h4>
+										<p class="item-info__text">
+											Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Urna, tortor tempus.
+										</p>
+									</div>
+								</a>
+								<a href="#" class="booking__info-item item-info">
+									<img src="./assets/img/booking-icon03.svg" alt="Image" class="item-info__icon">
+									<div class="item-info__block">
+										<h4 class="item-info__title">Let’s Go</h4>
+										<p class="item-info__text">
+											Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Urna, tortor tempus.
+										</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="booking__image-container">
+							<img src="./assets/img/moon-effect.svg" alt="image" class="booking__image-layer-start">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/booking-img03-600.webp" type="image/webp">
+								<img alt="image" class="booking__image-layer-first" src="./assets/img/booking-img03.webp">
+							</picture>
+							<picture>
+								<img alt="image" class="booking__image-layer-second" src="./assets/img/booking-img02.webp">
+							</picture>
+							<picture>
+								<img alt="image" class="booking__image-layer-third" src="./assets/img/booking-img01.webp">
+							</picture>
+						</div>
+					</div>
+				</section>
+				<div class="banner">
+					<div class="banner__container">
+						<h2 class="banner__title title">
+							Let’s make your
+							<br>
+							next holiday amazing
+						</h2>
+					</div>
+				</div>
+				<section class="page__promotion promotion">
+					<div class="promotion__container">
+						<div class="promotion__info">
+							<h3 class="promotion__subtitle subtitle">Promotion</h3>
+							<h2 class="promotion__title title">
+								We Provide You Best
+								<br>
+								Europe Sightseeing Tours
+							</h2>
+							<div class="promotion__text">
+								<p>
+									Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos. Non
+            quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus illum aut
+            optio quibusdam!
+								</p>
+							</div>
+							<button class="button button-type-text" data-fls-button="">
+								<a href="#" class="button__link link-type-text">View Packages</a>
+							</button>
+							<div class="promotion__items">
+								<div class="promotion__item item--first">
+									<a href="#" class="promotion__link-item">
+										<div class="promotion__price-item">$700</div>
+									</a>
+								</div>
+								<div class="promotion__item item--second">
+									<a href="#" class="promotion__link-item">
+										<div class="promotion__price-item">$800</div>
+									</a>
+								</div>
+								<div class="promotion__item item--third">
+									<a href="#" class="promotion__link-item">
+										<div class="promotion__price-item">$500</div>
+									</a>
+								</div>
+								<div class="promotion__item item--fourth">
+									<a href="#" class="promotion__link-item">
+										<div class="promotion__price-item">$400</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<picture>
+							<img alt="Image" class="promotion__bg" src="./assets/img/promotionBg.webp">
+						</picture>
+					</div>
+				</section>
+				<div class="page__promotion-banner promotion-banner">
+					<div class="promotion-banner__items">
+						<div class="promotion-banner__item --first">
+							<div class="promotion-banner__container-item">
+								<h3 class="promotion-banner__subtitle subtitle">Promotion</h3>
+								<h2 class="promotion-banner__title title --line-first">Explore Nature</h2>
+								<button class="promotion-banner__button button button-type-text button-type-wite" data-fls-button="">
+									<a href="#" class="button__link link-type-text">View Packages</a>
+								</button>
+							</div>
+						</div>
+						<div class="promotion-banner__item --second">
+							<div class="promotion-banner__container-item">
+								<h3 class="promotion-banner__subtitle subtitle">Promotion</h3>
+								<h2 class="promotion-banner__title title --line-second">Explore Cities</h2>
+								<button class="promotion-banner__button button button-type-text button-type-wite" data-fls-button="">
+									<a href="#" class="button__link link-type-text">View Packages</a>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="page__trendy trendy">
+					<div class="trendy__container">
+						<h3 class="promotion__subtitle subtitle">trendy</h3>
+						<h2 class="promotion__title title">
+							Our Trending Tour
+							<br>
+							Packages
+						</h2>
+						<div class="trendy__packages packages">
+							<div class="packages__card">
+								<div class="packages__image">
+									<picture>
+										<img alt="image" src="./assets/img/trendy-img01.webp">
+									</picture>
+									<img class="packages__icon-image" src="./assets/img/trendy-flag01.svg" alt="image">
+								</div>
+								<div class="packages__info">
+									<div class="packages__calendar-info">8 days</div>
+									<div class="packages__clients-info">25 People going</div>
+								</div>
+								<div class="packages__rating">
+									<h3 class="packages__title">Switzerland</h3>
+									<div class="packages__star">
+										<img src="./assets/img/trendy-star.svg" alt="Image">
+										<img src="./assets/img/trendy-star.svg" alt="Image">
+										<img src="./assets/img/trendy-star.svg" alt="Image">
+										<img src="./assets/img/trendy-star.svg" alt="Image">
+										<img src="./assets/img/trendy-star.svg" alt="Image">
+									</div>
+								</div>
+								<div class="packages__plaсe">Europe</div>
+								<div class="packages__price">
+									<div class="packages__current-price">1,000 $</div>
+									<div class="packages__old-price">1,200 $</div>
+								</div>
+								<div class="packages__text">
+									<p>
+										Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi. Et labore
+              harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos.
+									</p>
+								</div>
+								<button class="packages__button button button-type-text" data-fls-button="">
+									<a href="#" class="button__link link-type-text">Explore Now</a>
+								</button>
+							</div>
+							<div class="packages__card">
+								<div class="packages__image">
+									<picture>
+										<img alt="image" src="./assets/img/trendy-img02.webp">
+									</picture>
+									<img class="packages__icon-image" src="./assets/img/trendy-flag02.svg" alt="image">
+								</div>
+								<div class="packages__info">
+									<div class="packages__calendar-info">8 days</div>
+									<div class="packages__clients-info">30 People going</div>
+								</div>
+								<div class="packages__rating">
+									<h3 class="packages__title">Amazon</h3>
+									<div class="packages__star">
+										<img src="./assets/img/trendy-star.svg" alt="Image">
+										<img src="./assets/img/trendy-star.svg" alt="Image">
+										<img src="./assets/img/trendy-star.svg" alt="Image">
+										<img src="./assets/img/trendy-star.svg" alt="Image">
+										<img src="./assets/img/trendy-star.svg" alt="Image">
+									</div>
+								</div>
+								<div class="packages__plaсe">Brazil</div>
+								<div class="packages__price">
+									<div class="packages__current-price">1,223 $</div>
+									<div class="packages__old-price">1,200 $</div>
+								</div>
+								<div class="packages__text">
+									<p>
+										Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi. Et labore
+              harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos.
+									</p>
+								</div>
+								<button class="packages__button button button-type-text" data-fls-button="">
+									<a href="#" class="button__link link-type-text">Explore Now</a>
+								</button>
+							</div>
+							<div class="packages__card">
+								<div class="packages__image">
+									<picture>
+										<img alt="image" src="./assets/img/trendy-img03.webp">
+									</picture>
+									<img class="packages__icon-image" src="./assets/img/trendy-flag03.svg" alt="image">
+								</div>
+								<div class="packages__info">
+									<div class="packages__calendar-info">8 days</div>
+									<div class="packages__clients-info">155 People going</div>
+								</div>
+								<div class="packages__rating">
+									<h3 class="packages__title">Giza</h3>
+									<div class="packages__star">
+										<img src="./assets/img/trendy-star.svg" alt="Image">
+										<img src="./assets/img/trendy-star.svg" alt="Image">
+										<img src="./assets/img/trendy-star.svg" alt="Image">
+										<img src="./assets/img/trendy-star.svg" alt="Image">
+										<img src="./assets/img/trendy-star.svg" alt="Image">
+									</div>
+								</div>
+								<div class="packages__plaсe">Egypt</div>
+								<div class="packages__price">
+									<div class="packages__current-price">1,150 $</div>
+									<div class="packages__old-price">1,200 $</div>
+								</div>
+								<div class="packages__text">
+									<p>
+										Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi. Et labore
+              harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos.
+									</p>
+								</div>
+								<button class="packages__button button button-type-text" data-fls-button="">
+									<a href="#" class="button__link link-type-text">Explore Now</a>
+								</button>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__reviews reviews">
+					<div class="reviews__container">
+						<h3 class="promotion__subtitle subtitle">Promotion</h3>
+						<h2 class="promotion__title title">
+							See What Our Clients Say
+							<br>
+							About Us
+						</h2>
+						<div class="reviews__content-items">
+							<div data-fls-slider="" class="reviews__slider swiper-second swiper">
+								<div class="swiper-button-prev">
+									<img src="./assets/img/reviews-arrow-left.svg" alt="Image">
+								</div>
+								<div class="reviews__wrapper swiper-wrapper">
+									<div class="reviews__slide swiper-slide">
+										<picture>
+											<img alt="image" class="reviews__avatar" src="./assets/img/reviews-avatar.webp">
+										</picture>
+										<div class="reviews__text-slide">
+											<p>
+												Vel officiis dolor ea illo aut eligendi ullam non laudantium magnam et recusandae molestiae sit iure
+                  unde aut voluptate quaerat. Id sunt provident quo possimus impedit vel doloremque obcaecati qui ullam
+                  consectetur et ipsum omnis.
+											</p>
+											<h4 class="reviews__subtitle-slide">Christine Beckam - Designer</h4>
+										</div>
+									</div>
+									<div class="reviews__slide swiper-slide">
+										<picture>
+											<img alt="image" class="reviews__avatar" src="./assets/img/reviews-avatar.webp">
+										</picture>
+										<div class="reviews__text-slide">
+											<p>
+												Vel officiis dolor ea illo aut eligendi ullam non laudantium magnam et recusandae molestiae sit iure
+                  unde aut voluptate quaerat. Id sunt provident quo possimus impedit vel doloremque obcaecati qui ullam
+                  consectetur et ipsum omnis.
+											</p>
+											<h4 class="reviews__subtitle-slide">Christine Beckam - Designer</h4>
+										</div>
+									</div>
+									<div class="reviews__slide swiper-slide">
+										<picture>
+											<img alt="image" class="reviews__avatar" src="./assets/img/reviews-avatar.webp">
+										</picture>
+										<div class="reviews__text-slide">
+											<p>
+												Vel officiis dolor ea illo aut eligendi ullam non laudantium magnam et recusandae molestiae sit iure
+                  unde aut voluptate quaerat. Id sunt provident quo possimus impedit vel doloremque obcaecati qui ullam
+                  consectetur et ipsum omnis.
+											</p>
+											<h4 class="reviews__subtitle-slide">Christine Beckam - Designer</h4>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-button-next">
+									<img src="./assets/img/reviews-arrow-right.svg" alt="Image">
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__block">
+						<div class="footer__contacts">
+							<div class="footer__logo">
+								<p>Travel</p>
+								<img class="footer__image-logo" src="./assets/img/arrow-logo.svg" alt="Image">
+							</div>
+							<div class="footer__text">
+								<p>Travel helps companies manage payments easily.</p>
+							</div>
+							<div class="footer__social">
+								<a href="#" class="footer__link-social">
+									<img src="./assets/img/footer-linkedin.svg" alt="Image">
+								</a>
+								<a href="#" class="footer__link-social">
+									<img src="./assets/img/footer-messenger.svg" alt="Image">
+								</a>
+								<a href="#" class="footer__link-social">
+									<img src="./assets/img/footer-twitter.svg" alt="Image">
+								</a>
+								<a href="#" class="footer__link-social">
+									<img src="./assets/img/footer-twoo.svg" alt="Image">
+								</a>
+							</div>
+						</div>
+						<div class="footer__info">
+							<h3 class="footer__title">Company</h3>
+							<ul class="foter__list">
+								<li class="footer__item">
+									<a href="#" class="footer__link-item">About Us</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link-item">Careers</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link-item">Blog</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link-item">Pricing</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__destinations">
+							<h3 class="footer__title">Destinations</h3>
+							<ul class="foter__list">
+								<li class="footer__item">
+									<a href="#" class="footer__link-item">Maldives</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link-item">Los Angelas</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link-item">Las Vegas</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link-item">Torronto</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__post">
+							<h3 class="footer__title">Join Our Newsletter</h3>
+							<form class="footer__form">
+								<div class="form-group">
+									<input type="text" placeholder="Your email address">
+								</div>
+								<button class="button button-long" data-fls-button="">
+									<a href="#" class="button__link">Subscribe</a>
+								</button>
+							</form>
+							<div class="footer__text">
+								<p>*  Will send you weekly updates for your better tour packages.</p>
+							</div>
+						</div>
+					</div>
+					<div class="footer__copyright">
+						<p>Copyright @ Xpro 2022. All Rights Reserved.</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
