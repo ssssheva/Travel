@@ -522,6 +522,7 @@ select::after {
   border-radius: 50%;
   border: 0.0625rem solid #fff;
   object-fit: cover;
+  width: 39px;
 }
 .hero__avatar:first-child {
   margin-left: 0;
@@ -2657,3 +2658,4 @@ select::after {
   }
 
 }
+
