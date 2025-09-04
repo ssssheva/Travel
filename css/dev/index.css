@@ -522,10 +522,6 @@ select::after {
   border-radius: 50%;
   border: 0.0625rem solid #fff;
   object-fit: cover;
-  margin-right: -0.625rem;
-  position: relative;
-  z-index: 1;
-  transition: z-index 0.3s;
 }
 .hero__avatar:first-child {
   margin-left: 0;
@@ -2659,4 +2655,5 @@ select::after {
   .promotion-banner__button:hover {
     background: #5E6282;
   }
+
 }
